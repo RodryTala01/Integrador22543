@@ -1,0 +1,20 @@
+html {
+    font-size: 16px;
+}
+
+    .flex-container {
+        display: flex;
+        background-color: lightseagreen;
+        height: 150px;
+        flex-direction: row; /*Usar flexbox playground*/
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .flex-container > DIV {
+        background-color: lightsalmon;
+        margin: 10px;
+        padding: 20px;
+
+    }

@@ -1,0 +1,29 @@
+p:hover {
+    background-color: grey;
+}
+
+li:last-child {
+    background-color: red;
+}
+
+li:first-child {
+    background-color: orange;
+}
+
+li:nth-child(3) {
+    background-color: green;
+}
+
+li:nth-child(2n) { /*Pares*/
+    background-color: grey;
+}
+
+tr:nth-child(odd) { /*Impares*/
+    background-color: yellow;
+}
+
+input:focus {
+    padding: 5%;
+    font-size: 20px;
+    background-color: red;
+}

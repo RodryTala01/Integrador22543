@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+
+
+    body {
+        font-family: 'Anek Telugu', sans-serif;
+    }
+
+    .oradores {
+        display: flex;
+        justify-content: center;
+    }
+
+    .orador {
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        width: 300px;
+        margin: 1rem;
+        justify-content: center;
+    }
+
+    .orador > img {
+        width: 100%;
+    }
+
+    .botones > input {
+        
+        border: 0;
+        border-radius:3px;
+        font-size: 11px;
+        padding: .2rem .3rem;
+        font-weight: bold;
+    }
+
+    .botones > input:hover {
+        animation: flash;
+        animation-duration: 1s;
+        cursor: pointer;
+    }
+
+
+    .btnAmarillo {
+        margin-left: 1rem;
+        background-color: rgb(254, 193, 24);
+    }
+
+    .btnCeleste {
+        margin-left: 0.1rem;
+        background-color: rgb(22, 153, 161);
+        color: white;
+    }
+
+    .titulo {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .descripcion {
+        margin: 1rem;
+        text-align: justify;
+    }

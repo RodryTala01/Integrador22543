@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}    
+    
+    .menu {
+        margin-top: 9px;
+        text-align: right;
+    }
+
+    .menu > img {
+        margin-right: 10px;
+        margin-top: 2px;
+        width: 35px;
+        height: 35px;
+        border-radius: 100px;
+    }
+
+    .menu > a {
+        vertical-align: 11px;
+        text-decoration: none;
+        color: black;
+        font-size: 0.8rem;
+    }
+
+    .gmail {
+        margin-right: 10px;
+    }
+
+    .imagenes {
+        margin-right: 65px;
+    }
+
+    .logo {
+        margin-top: 208px;
+    }
+
+    .logo > img {
+        width: 272.5px;
+    }
+
+    .inputBuscador > input {
+        margin-top: 23px;
+        border: 1px solid;
+        border-color: lightgray;
+        border-radius: 100px;
+        height: 41.5px;
+        width: 575px;
+    }
+
+    .inputBuscador > input:hover {
+        box-shadow: 0px 0px 8px lightgrey;
+    }
+    
+    .botones {
+        margin: 23px;
+    }
+
+    .botones > input {
+        color: #3c4043;
+        font-size: 14px;
+        border-radius: 5px;
+        border: 1px solid white;
+        background-color: #f8f9fa;
+        margin: 0.25rem;
+        padding: 0.6rem;
+        padding-left: 1rem;
+        padding-right: 1rem; /* padding: 0.7rem, 1rem, 0rem, 1rem*/
+        cursor: pointer;
+    }
+
+    .botones > input:hover { 
+        border: 1px solid lightgray;
+        box-shadow: 0px 1px 1px rgb(235, 232, 232);
+    }
+
+
+
+
+
+    .abajoBuscador > a {
+        margin: 0.27rem;
+        text-decoration: none;
+    }

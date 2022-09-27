@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', Sans-Serif;
+}
+    .menuArriba {
+        display: flex;
+        align-items: center;
+        height: 80px;
+    }
+
+    .menuArriba > .cajaArriba {
+        padding: 2rem 1.3rem 2rem 1.3rem;
+        text-align: center;
+    }
+
+    .cajaArriba > a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 600; /*Negrita*/
+        cursor: pointer;
+        
+    }
+
+    .cajaArriba:hover {
+        background-color: #04aa6d;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    .menuAbajo {
+        background-color: #282a35;
+        position: sticky;
+        top: 0;
+        height: 43px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .menuAbajo .cajaAbajo {
+        padding: 0.8rem 0.4rem 0.8rem 0.4rem;
+        
+    }
+
+    .cajaAbajo > a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        padding: 0rem 0.5rem 0rem 0.5rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+        
+    }
+
+    .cajaAbajo > a:hover {
+        color: white;
+    }
+
+    .cajaAbajo:hover {
+        background-color: black;
+        
+    }

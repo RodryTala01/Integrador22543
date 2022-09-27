@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Sin CSS</title>
+    <link rel="stylesheet" href="styleExterno.css">
+
+    <!-- Si coloco el estilo en el head, se aplica a todo el documento -->
+    <style>
+        p {background-color: black;
+            color: white;
+            padding: 1rem; 
+            width: max-content;
+            font-size: 1.5rem;
+        }
+        
+        input {background-color: lightblue;
+            padding: 1rem; 
+            font-size: 1.5rem;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div>Sin estilo</div>
+
+
+    <!-- Style inline -->
+
+    <div style="color: rgb(0, 255, 0); background-color: red; text-align: center; font-size: 1.5rem;">Con estilo</div>
+
+    <a href="" style="background-color: pink;">Link vacio con estilo</a>
+
+    <p>Conservo el estilo explicitado en el head</p>
+
+    <p>Yo tambien</p>
+
+    <input type="text" name="" id="">
+
+    <!-- Style externo -->
+    <!-- Linkeo un style externo en el head con <link> -->
+
+    <ul>
+        <li>Lista de clientes con Style Externo</li>
+        <li>Cliente 1</li>
+        <li>Cliente 2</li>
+        <li>Cliente 3</li>
+        <li>Cliente 4</li>
+        <li>Cliente 5</li>
+    </ul>
+
+    <ul>
+        <li>Alumno 1</li>
+        <li>Alumno 2</li>
+        <li>Alumno 3</li>
+        <li>Alumno 4</li>
+    </ul>
+
+    <!-- Selector de etiqueta (div) -->
+    <div>Este texto tambien toma un style externo</div>
+    <div>Lorem ipsum dolor sit amet.</div>
+
+    <!-- Selector de clase -->
+    <h4 class="textoTitulo">Titulo 1</h4>
+    <h4 class="textoTitulo">Titulo 2</h4>
+    <h4 class="textoTitulo">Titulo 3</h4>
+    <h4 class="textoTitulo">Titulo 4</h4>
+
+    <a href="" class="textoTitulo">Link</a>
+    <p class="textoTitulo">Parrafo</p>
+
+    <!-- Selector ID -->
+    <!-- Solo se usa una vez -->
+    <p id="anuncio">ANUNCIO</p>
+
+    <a href="logoGoogle.png" download="">Descargar imágen</a>
+
+
+
+</body>
+</html>

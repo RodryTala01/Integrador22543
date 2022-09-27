@@ -1,0 +1,12 @@
+    .tamañoMio {
+        font-size: .85rem;
+    }
+
+    .colorMio {
+        background-color: #17a2b9;
+    }
+
+    .fondoMio {
+        background-image: url(imagenes/ba1.jpg);
+        background-size: cover;
+    }

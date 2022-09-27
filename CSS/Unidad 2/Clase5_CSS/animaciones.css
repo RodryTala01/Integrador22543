@@ -1,0 +1,61 @@
+    .cajaAnimada {
+        width: 100px;
+        height: 100px;
+        padding: 1rem;
+        border-radius: 20px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        animation: bounce; animation-duration: 2s;
+    }
+    
+    .imagenAnimada {
+        width: 100px;
+        height: 100px;
+        padding: 1rem;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        animation: bounce; animation-duration: 1s;
+    }
+
+    .imagenAnimada > img:hover {
+        animation: flip;
+        animation-duration: 2s;
+    }
+
+    .textoAnimado{
+        padding: 1rem;
+        border-radius: 20px;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        animation: bounce; animation-duration: 2s;
+        animation-delay: 2s;
+        
+    }
+
+    .alerta {
+
+        width: 100px;
+        height: 100px;
+        padding: 1rem;
+        border-radius: 20px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        animation: flash;
+        animation-duration: 1s;
+        animation-iteration-count: 10;
+        animation-delay: 2s;
+
+    }
+    

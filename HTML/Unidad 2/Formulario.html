@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MI PRIMER FORMULARIO</h1>
+    <form style="background-color:darkkhaki; border: 2px solid; border-radius: 5px; padding: 1rem; width: max-content; " action="Clase3_HTML/EnviarForm.html" method="post"> <!--Get: +Rapido -Seguro Post:-Rapido +Seguro-->
+
+        <label for="">Nombre: </label>
+        <input  type="text" name="nombre" id="nombre">
+
+        <br><br>
+
+        <label for="">Apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+
+        <br><br>
+
+        <label for="">Contraseña:</label>
+        <input type="password" name="contraseña" id="apellido">
+
+        <br><br>
+
+        <label for="observ">Observaciones:</label>
+        <br>
+        <textarea style="resize:none;" name="observ" id="" cols="40" rows="4"></textarea>
+
+        <br><br>
+
+        <label for="provincia">Seleccion de provincias:</label>
+        <br>
+        <select name="provincia" id="">
+            <option value="default">-- Selecciona una provincia --</option>
+            <option value="1">Mendoza</option>
+            <option value="2">Buenos Aires</option>
+            <option value="3">San Luis</option>
+            <option value="4">Catamarca</option>
+        </select>
+
+        <br><br>
+
+        <label for="mes">Mes:
+            <br>
+            <input type="radio" name="mes" id="" value="ENERO">Enero
+            <br>
+            <input type="radio" name="mes" id="" value="FEBRERO">Febrero
+            <br>
+            <input type="radio" name="mes" id="" value="MARZO">Marzo
+            <br>
+            <input type="radio" name="mes" id="" value="ABRIL">Abril
+            <br>
+            <input type="radio" name="mes" id="" value="MAYO">Mayo
+        </label>
+
+        <br><br>
+
+        <label for="mascotas">Elija sus mascotas:
+            <br>
+            <input type="checkbox" name="mascotas" id="" value="PERRO">Perro
+            <br>
+            <input type="checkbox" name="mascotas" id="" value="GATO">Gato
+            <br>
+            <input type="checkbox" name="mascotas" id="" value="HAMSTER">Hamster
+            <br>
+        </label>
+
+        <br><br>
+
+        <input type="file" name="archivo" id="">
+        <br><br>
+        <input type="date" name="fecha" id="">
+        <br><br>
+        <input type="color" name="color" id="">
+
+        <br><br>
+
+        <label for="email">Ingrese E-mail:
+            <input type="email" name="email" id="">
+        </label>
+        <br>
+        <label for="contraseña">Contraseña:
+            <input type="password" name="contraseña">
+        </label>
+
+
+
+        <!-- Boton de enviar, lo envia al action de arriba -->
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
