@@ -3,8 +3,9 @@
 
 body {
     background-image: url(Imagenes/Fondo.png);
-    background-size: 100%;
-    background-repeat: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.5rem;
@@ -23,9 +24,7 @@ body {
     }
 
    .cajaBotonesFechas {
-        justify-content: center;
-        display: flex;
-        height: 20%;
+        height: 57%;
     }
 
 
@@ -98,3 +97,20 @@ body {
         width:"55%";
     }    
 
+    .fondoMio {
+        background-color: #e5e5e5;
+    }
+
+    .tablaMia {
+        width: 170px;
+    }
+    .tablaMia2{
+        width: 175px;
+    }
+    .tablaMia3{
+        width: 35px;
+    }
+
+    .tamañoMio{
+        width: 200px;
+    }
