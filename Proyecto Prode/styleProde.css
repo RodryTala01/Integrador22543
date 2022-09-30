@@ -114,3 +114,27 @@ body {
     .tamañoMio{
         width: 200px;
     }
+
+    .izq{
+        position: sticky;
+        bottom: 30%;
+        margin-left: 10px;
+    }
+
+    .miAcordeon {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .botonAcordeon > button{
+        border: none;
+    }
+
+    .tamañoLetraT {
+        font-size: 15px;
+    }
+
+    .tamañoLetra {
+        font-size: 11px;
+    }
